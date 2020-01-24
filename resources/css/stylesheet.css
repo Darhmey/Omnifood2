@@ -16,6 +16,15 @@ html {
     margin: 0 auto;
 }
 
+.clearfix {zoom: 1}
+.clearfix::after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /*------------------------------------------------------*/
 /*----------------------HEADING-------------------------*/
 /*------------------------------------------------------*/
@@ -228,6 +237,42 @@ section {
 
 }
 
+/*------------------------------------------------------*/
+/*--------------------SECTION STEPS---------------------*/
+/*------------------------------------------------------*/
+.section-steps {
+    background-color: #f4f4f4;
+}
+.steps-box:first-child {
+    padding-right: 3%;
+    text-align: right;
+    margin-top: 30px;
+}
+.steps-box:last-of-type {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+.app-screen {
+    width: 40%;
+}
+.meal-steps {
+    line-height: 145%;
+}
+.meal-steps div {
+    border: 2px solid #e67e22;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    color: #e67e22;
+    padding: 5px;
+    float: left;
+    margin-right: 25px;
+}
+.meal-steps {
+    margin-bottom: 50px;
+}
 
+/*
 
-
+    */
