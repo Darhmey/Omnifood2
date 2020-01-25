@@ -272,7 +272,7 @@ section {
 .meal-steps {
     margin-bottom: 50px;
 }
-
-/*
-
-    */
+.steps-box:last-child img {
+    height: 40px;
+    margin-right: 15px;
+}
